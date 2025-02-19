@@ -1,47 +1,55 @@
+/* Estilos para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    background-color: #f9f9f9; /* Color de fondo */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 20px; /* Espacio interno alrededor del contenido */
 }
 
-.container {
-    background-color: white;
-    padding: 20px;
-    max-width: 600px;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Estilos para el contenedor principal */
+.texto {
+    background-color: white; /* Color de fondo del contenedor */
+    padding: 20px; /* Espacio interno alrededor del contenido */
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenedor */
 }
 
+/* Estilos para los párrafos */
 p {
-    font-size: 16px;
-    color: #333;
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
 }
 
+/* Estilos para los enlaces */
 a {
-    color: #009688;
-    text-decoration: none;
-    font-weight: bold;
+    color: #009688; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
 }
 
+/* Estilos para los enlaces cuando se pasa el ratón por encima */
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Subrayado al pasar el ratón */
 }
 
+/* Estilos para las imágenes */
 img {
-    width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ancho completo del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la imagen */
 }
 
+/* Estilos para la última imagen */
 img:last-of-type {
-    margin-top: 45px;
+    margin-top: 45px; /* Espacio superior */
 }
 
+/* Estilos para la imagen con clase 'fotoescojerweb' */
 .fotoescojerweb {
-    border-top: 30px solid black;
-    border-bottom: 30px solid black;
-    margin: 20px auto; /* Ajusta el valor según tus necesidades */
-    display: block;
+    border-top: 30px solid black; /* Borde superior negro */
+    border-bottom: 30px solid black; /* Borde inferior negro */
+    margin: 20px auto; /* Espacio alrededor y centrado horizontalmente */
+    display: block; /* Mostrar como bloque para centrar */
 }
