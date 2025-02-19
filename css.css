@@ -42,5 +42,6 @@ img:last-of-type {
 .fotoescojerweb {
     border-top: 30px solid black;
     border-bottom: 30px solid black;
-    margin: 20px; /* Ajusta el valor según tus necesidades */
+    margin: 20px auto; /* Ajusta el valor según tus necesidades */
+    display: block;
 }
